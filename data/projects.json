@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "CosyWorking",
+      "url": "https://cosyworking.surge.sh/",
+      "img": "/images/cosyworking.png"
+    },
+    {
+      "id": 2,
+      "name": "Star Wars",
+      "url": "https://quentinroggy.github.io/StarWars-Integration/",
+      "img": "/images/starwars.png"
+    },
+    {
+      "id": 3,
+      "name": "Montblanc",
+      "url": "https://quentinroggy.github.io/Montblanc_integration/",
+      "img": "/images/montblanc.png"
+    },
+    {
+      "id": 4,
+      "name": "Portfolio",
+      "url": "https://www.quentinroggy.fr",
+      "img": ""
+    }
+  ]
+}
