@@ -37,22 +37,34 @@
       "delay": 1
     },
     {
+      "name": "Redux",
+      "img": "https://www.svgrepo.com/show/452093/redux.svg",
+      "color": "118, 74, 188",
+      "delay": 1.2
+    },
+    {
       "name": "MUI",
       "img": "https://www.svgrepo.com/show/354048/material-ui.svg",
       "color": "0, 129, 203",
-      "delay": 1.2
+      "delay": 1.4
     },
     {
       "name": "NodeJS",
       "img": "https://www.svgrepo.com/show/303658/nodejs-1-logo.svg",
       "color": "90, 169, 69",
-      "delay": 1.4
+      "delay": 1.6
+    },
+    {
+      "name": "Express.js",
+      "img": "https://www.svgrepo.com/show/330398/express.svg",
+      "color": "0, 0, 0",
+      "delay": 1.8
     },
     {
       "name": "PostreSQL",
       "img": "https://www.svgrepo.com/show/354200/postgresql.svg",
       "color": "51, 103, 145",
-      "delay": 1.6
+      "delay": 2
     }
   ],
   "deployment": [
@@ -61,6 +73,18 @@
       "img": "https://www.svgrepo.com/show/378475/vercel-fill.svg",
       "color": "0, 0, 0",
       "delay": 0
+    },
+    {
+      "name": "Netlify",
+      "img": "https://www.svgrepo.com/show/376339/netlify.svg",
+      "color": "58, 166, 189",
+      "delay": 0.2
+    },
+    {
+      "name": "Surge",
+      "img": "https://www.svgrepo.com/show/354411/surge.svg",
+      "color": "99, 193, 153",
+      "delay": 0.4
     }
   ],
   "other": [

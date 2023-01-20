@@ -1,13 +1,14 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
+import { motion } from "framer-motion";
 
 import styles from '../styles/Projects.module.css';
 import { useState } from 'react';
 
 export default function Projects (props) {
 
-  const [file, setFile] = useState('');
+  const [file, setFile] = useState('/images/cosyworking.png');
 
   const handleOnFocus = async (imgFocused) => {
     setFile(imgFocused);
@@ -24,7 +25,10 @@ export default function Projects (props) {
     <div className={styles.container}>
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.projects_container}>
-      <section className={styles.project_container_img_container}>
+      <motion.section 
+        initial={{ opacity: 0, translateX: -500 }} 
+        whileInView={{ opacity: 1, translateX: 0, transition: {duration: 0.8} }}
+        className={styles.project_container_img_container}>
         {
           file && 
           <div 
@@ -32,12 +36,16 @@ export default function Projects (props) {
             style={{backgroundImage: `url(${file})`}}
           />
         }
-      </section>
-      <section className={styles.project_container_list_container}>
+      </motion.section>
+      <motion.section
+        initial={{ opacity: 0, translateX: 500 }} 
+        whileInView={{ opacity: 1, translateX: 0, transition: {duration: 0.8} }}
+        className={styles.project_container_list_container}>
         {
           props.projects.map((project) => (
             <>
               <Link
+                target='_blank'
                 key={project.id}
                 onMouseEnter={() => handleOnFocus(project.img)} 
                 className={styles.project_container_list_item} 
@@ -58,7 +66,7 @@ export default function Projects (props) {
             </>
           ))
         }
-      </section>
+      </motion.section>
       </div>
     </div>
     </>

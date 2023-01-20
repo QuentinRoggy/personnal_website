@@ -46,6 +46,12 @@
 .form_container form input{
   height: 2.5rem;
   padding: 0.5rem;
+  background-color: var(--color-text-primary);
+  border: none;
+}
+
+.form_container form input::placeholder, .submit_button {
+  color: var(--color-bg-primary);
 }
 
 .message_input {
@@ -55,4 +61,50 @@
 .submit_button {
   width: 10rem;
   align-self: flex-end;
+  cursor: pointer;
+}
+
+.socia_mdedia_container {
+  width: 50%;
+}
+
+.social_media_list {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.contact_section_cards_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: .5rem;
+}
+
+.contact_section_cards_card_icon {
+  border-radius: 50%;
+  padding: 1rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s ease;
+}
+
+.contact_section_cards_card_icon:hover {
+  transform: scale(0.9);
+  border: 1px solid transparent!important;
+}
+
+
+.contact_section_cards_card_img {
+  border-radius: 0.15rem;
+  width: 40px;
+  height: 40px;
+}
+
+.contact_section_cards_card_title {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.15rem;
 }

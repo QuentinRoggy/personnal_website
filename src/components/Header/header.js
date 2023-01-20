@@ -5,7 +5,7 @@ import styles from './Header.module.css';
 
 export default function Header() {
 
-  const [activeTheme, setActiveTheme] = useState("light");
+  const [activeTheme, setActiveTheme] = useState("dark");
   const inactiveTheme = activeTheme === "light" ? "dark" : "light";
 
   useEffect(() => {

@@ -1,0 +1,25 @@
+{
+  "socialMedia": [
+    {
+      "id": 1,
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/quentin-roggy-7945537a/",
+      "img": "https://www.svgrepo.com/show/448234/linkedin.svg",
+      "color": "37, 102, 193"
+    },
+    {
+      "id": 2,
+      "name": "Github",
+      "url": "https://github.com/QuentinRoggy",
+      "img": "https://www.svgrepo.com/show/439171/github.svg",
+      "color": "0, 0, 0"
+    },
+    {
+      "id": 3,
+      "name": "Twitter",
+      "url": "https://twitter.com/RoggyQ",
+      "img": "https://www.svgrepo.com/show/452123/twitter.svg",
+      "color": "51, 161, 242"
+    }
+  ]
+}
