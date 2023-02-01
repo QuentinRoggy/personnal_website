@@ -19,8 +19,8 @@
 }
 
 .mail_container {
-  width: 50%;
   display: flex;
+  flex: 2;
   gap: 3rem;
 }
 
@@ -64,10 +64,6 @@
   cursor: pointer;
 }
 
-.socia_mdedia_container {
-  width: 50%;
-}
-
 .social_media_list {
   margin-top: 2rem;
   display: flex;
@@ -107,4 +103,12 @@
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.15rem;
+}
+
+
+@media only screen and (max-width: 1064px) {
+  .contact_container {
+    flex-direction: column;
+    row-gap: 4rem;
+  }
 }

@@ -14,6 +14,7 @@
 }
 
 .about_container {
+ 
   display: flex;
   justify-content: space-between;
 
@@ -32,7 +33,9 @@
 }
 
 .about_img_container {
+  min-width: 300px;
   width: 40%;
+  height: 40%;
   display: flex;
   justify-content: center;
 }
@@ -77,4 +80,17 @@
 
 .arrow {
   filter: var(--color-arrow);
+}
+
+@media only screen and (max-width: 1064px) {
+  .about_container {
+    flex-direction:column-reverse;
+    align-items: center;
+    row-gap: 2rem;
+  }
+
+  .about_description_container {
+    width: 100%;
+
+  }
 }

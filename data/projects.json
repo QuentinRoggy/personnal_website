@@ -17,6 +17,12 @@
       "name": "Montblanc",
       "url": "https://quentinroggy.github.io/Montblanc_integration/",
       "img": "/images/montblanc.png"
+    },
+    {
+      "id": 4,
+      "name": "Application de gestion traiteur",
+      "url": "http://traiteur-app.surge.sh/",
+      "img": "/images/My_traiteur.png"
     }
   ]
 }

@@ -27,7 +27,7 @@ export default function Projects (props) {
       <div className={styles.projects_container}>
       <motion.section 
         initial={{ opacity: 0, translateX: -500 }} 
-        whileInView={{ opacity: 1, translateX: 0, transition: {duration: 0.8} }}
+        animate={{ opacity: 1, translateX: 0, transition: {duration: 0.8} }}
         className={styles.project_container_img_container}>
         {
           file && 
@@ -39,7 +39,7 @@ export default function Projects (props) {
       </motion.section>
       <motion.section
         initial={{ opacity: 0, translateX: 500 }} 
-        whileInView={{ opacity: 1, translateX: 0, transition: {duration: 0.8} }}
+        animate={{ opacity: 1, translateX: 0, transition: {duration: 0.8} }}
         className={styles.project_container_list_container}>
         {
           props.projects.map((project) => (

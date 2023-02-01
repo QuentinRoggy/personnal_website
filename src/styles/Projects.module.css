@@ -6,6 +6,7 @@
 }
 
 .title {
+  font-size: 3rem;
   -webkit-text-stroke: 1.5px var(--color-text-primary);
   color: var(--color-bg-primary);
   border-bottom: 1px solid var(--color-text-primary);
@@ -68,4 +69,14 @@
 
 .arrow {
   filter: var(--color-arrow);
+}
+
+@media only screen and (max-width: 768px) {
+  .project_container_img_container {
+    display: none;
+  }
+
+  .project_container_list_container {
+    width: 100%;
+  }
 }

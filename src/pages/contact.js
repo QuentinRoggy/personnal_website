@@ -32,11 +32,10 @@ export default function Contact(props) {
                   <>
                   <Link href={media.url} target='_blank'>
                     <motion.div
-
                       key={media.id}
                       initial={{ opacity: 0, translateY: 20 }}
                       whileInView={{ opacity: 1, translateY: 0 }}
-                      transition={{delay: 1}}
+                      transition={{delay: 0.3}}
                       className={styles.contact_section_cards_card}>
                       <div 
                         style={{
