@@ -13,10 +13,7 @@ export default function About() {
       <h1 className={styles.title}>About me</h1>
       <div className={styles.about_container}>
 
-        <motion.div 
-          className={styles.about_description_container}
-          initial={{ opacity: 0, translateX: -500 }} 
-          whileInView={{ opacity: 1, translateX: 0, transition: {duration: 0.8} }}>
+        <div className={styles.about_description_container}>
 
           <p className={styles.about_description}>
           Hey, my name is Quentin ROGGY. I am a fullstack developer and web integrator from Angers, I’m passionate about creating beautiful, intuitive and functionnal web app and websites. I&apos;m available as freelance in Angers, Paris and Nantes. Of course full remote also possible.</p>
@@ -39,15 +36,12 @@ export default function About() {
               </Link>
 
           </div>
-        </motion.div>
+        </div>
 
 
-        <motion.div 
-          initial={{ opacity: 0, translateX: 500 }} 
-          whileInView={{ opacity: 1, translateX: 0, transition: {duration: 0.8} }}
-          className={styles.about_img_container}>
+        <div className={styles.about_img_container}>
           <Image className={styles.about_img} src={photo} alt='photo portrait' width={2074} height={2054}/>
-        </motion.div>
+        </div>
 
       </div>
     </div>

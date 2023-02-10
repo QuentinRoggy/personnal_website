@@ -107,8 +107,18 @@
 
 
 @media only screen and (max-width: 1064px) {
+  .container {
+    width: 90%;
+  }
   .contact_container {
     flex-direction: column;
     row-gap: 4rem;
+  }
+  .mail_container {
+    flex-direction: column;
+  }
+
+  .form_container {
+    width: 100%;
   }
 }
