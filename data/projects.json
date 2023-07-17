@@ -2,27 +2,39 @@
   "projects": [
     {
       "id": 1,
-      "name": "CosyWorking",
+      "name": "CosyWorking - Développement d'une app de mise en relation pour la location de bureaux.",
       "url": "https://cosyworking.surge.sh/",
       "img": "/images/cosyworking.png"
     },
     {
       "id": 2,
-      "name": "Star Wars",
+      "name": "Star Wars - travail d'intégration sur maquette Figma.",
       "url": "https://quentinroggy.github.io/StarWars-Integration/",
       "img": "/images/starwars.png"
     },
     {
       "id": 3,
-      "name": "Montblanc",
+      "name": "Montblanc - Travail d'intégration sur maquette figma.",
       "url": "https://quentinroggy.github.io/Montblanc_integration/",
       "img": "/images/montblanc.png"
     },
     {
       "id": 4,
-      "name": "Application de gestion traiteur",
+      "name": "Application de gestion traiteur (en cours).",
       "url": "http://traiteur-app.surge.sh/",
       "img": "/images/My_traiteur.png"
+    },
+    {
+      "id": 5,
+      "name": "Refonte site web d'un traiteur",
+      "url": "https://www.ms-chatillon.fr/",
+      "img": "/images/ms_chatillon.png"
+    },
+    {
+      "id": 6,
+      "name": "Développement d'un ERP pour une PME (en cours).",
+      "url": "",
+      "img": "/images/aromes-et-saveurs.png"
     }
   ]
 }
