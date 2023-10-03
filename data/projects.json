@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "id": 6,
+      "name": "Développement d'un ERP pour une PME (en cours).",
+      "url": "",
+      "img": "/images/aromes-et-saveurs.png"
+    },
+    {
+      "id": 5,
+      "name": "Refonte site web d'un traiteur",
+      "url": "https://www.ms-chatillon.fr/",
+      "img": "/images/ms_chatillon.png"
+    },
+    {
       "id": 1,
       "name": "CosyWorking - Développement d'une app de mise en relation pour la location de bureaux.",
       "url": "https://cosyworking.surge.sh/",
@@ -23,18 +35,6 @@
       "name": "Application de gestion traiteur (en cours).",
       "url": "http://traiteur-app.surge.sh/",
       "img": "/images/My_traiteur.png"
-    },
-    {
-      "id": 5,
-      "name": "Refonte site web d'un traiteur",
-      "url": "https://www.ms-chatillon.fr/",
-      "img": "/images/ms_chatillon.png"
-    },
-    {
-      "id": 6,
-      "name": "Développement d'un ERP pour une PME (en cours).",
-      "url": "",
-      "img": "/images/aromes-et-saveurs.png"
     }
   ]
 }

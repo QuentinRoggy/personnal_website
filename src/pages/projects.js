@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 export default function Projects (props) {
 
-  const [file, setFile] = useState('/images/cosyworking.png');
+  const [file, setFile] = useState('/images/aromes-et-saveurs.png');
 
   const handleOnFocus = async (imgFocused) => {
     setFile(imgFocused);

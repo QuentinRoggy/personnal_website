@@ -28,7 +28,7 @@ export default function Home() {
           <motion.div 
             initial={{ opacity: 0, translateY: 20 }} 
             whileInView={{ opacity: 1, translateY: 0, transition: {duration: 0.8, delay: 0.5} }}>
-            <h3>I&apos;am a fullstack developper working with Next.js and Node.js</h3>
+            <h3>I&apos;am a fullstack developper working with React and Node.js</h3>
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, translateY: 20 }} 
